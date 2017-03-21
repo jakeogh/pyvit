@@ -10,7 +10,6 @@ setup(
         'pyserial>=3.2.1'
     ],
 
-    test_suite='test',
 
     author='Eric Evenchick',
     author_email='eric@evenchick.com',
@@ -24,3 +23,5 @@ setup(
                  'Topic :: Software Development :: Libraries',
                  'Topic :: Software Development :: Embedded Systems']
 )
+#    test_suite='test',
+
