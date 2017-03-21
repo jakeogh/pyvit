@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='pyvit',
     version='0.1.2',
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(exclude=('test',)),
     scripts=[],
 
     install_requires=[
